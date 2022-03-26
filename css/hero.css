@@ -1,0 +1,41 @@
+.playlistHero {
+    /* border: 1px solid red; */
+    block-size: 20rem;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    /* border: 1px solid red; */
+    inline-size: 20rem;
+    align-self: center;
+}
+
+.playlistHero-details {
+    /* border: 1px solid red; */
+    inset-block-end: 8rem;
+    inline-size: 100%;
+    text-align: center;
+}
+
+.playlistHero-details button {
+    inline-size: 10rem;
+    border-radius: 4.3rem;
+    font: var(--button);
+}
+
+.buttonIcon p {
+    position: relative;
+    inset-block-end: 2px;
+}
+
+.playlistHero-detailsName {
+    font: var(--headLine1);
+    color: var(--white);
+}
+
+.playlistHero-detailsArtist, .playlistHero-detailsFollowers {
+    font: var(--baseFont);
+    color: var(--white);
+}
+

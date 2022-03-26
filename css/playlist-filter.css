@@ -1,0 +1,18 @@
+.playlistFilter {
+    /* border: 1px solid red; */
+    inline-size: 100%;
+}
+
+.playlistFilter input {
+    
+    background: transparent;
+    margin-inline-start: 1rem;
+}
+
+.playlistFilter i {
+    position: absolute;
+    font-size: 1rem;
+    inset-inline-start: 1.5rem;
+    inset-block-start: calc(50% - .5rem);
+    block-size: 1rem;
+}
